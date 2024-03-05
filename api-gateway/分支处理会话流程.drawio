@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-03-05T08:54:14.910Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="vwWsfhLTD4NCzuqgVJXl" version="24.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-05T09:34:06.592Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="UoqbEf_PJhixJgHyhRul" version="24.0.1" type="github">
   <diagram name="第 1 页" id="hdfHfnW4J8s0pxE1J6MG">
-    <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DYv4_KJz3e5PC-UhnC1p-1" value="&lt;font face=&quot;Lucida Console&quot;&gt;IGenericReference&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="160" y="130" width="310" height="90" as="geometry" />
+          <mxGeometry x="170" y="120" width="310" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DYv4_KJz3e5PC-UhnC1p-2" value="&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-1">
           <mxGeometry y="26" width="310" height="26" as="geometry" />
@@ -16,10 +16,10 @@
         <mxCell id="DYv4_KJz3e5PC-UhnC1p-4" value="&lt;font face=&quot;Lucida Console&quot;&gt;+&amp;nbsp;$invoke(String args)&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-1">
           <mxGeometry y="60" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DYv4_KJz3e5PC-UhnC1p-5" value="&lt;font face=&quot;Lucida Console&quot;&gt;GenericReferenceProxy&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="160" y="300" width="310" height="120" as="geometry" />
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-5" value="&lt;font face=&quot;Lucida Console&quot;&gt;MapperProxy&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="310" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="DYv4_KJz3e5PC-UhnC1p-6" value="&lt;font face=&quot;Lucida Console&quot;&gt;-&amp;nbsp;genericService: GenericService&lt;br&gt;- methodName&lt;span style=&quot;background-color: initial;&quot;&gt;: String&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-5">
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-6" value="&lt;font face=&quot;Lucida Console&quot;&gt;- gatewaySession: GatewaySession&lt;br&gt;- uri&lt;span style=&quot;background-color: initial;&quot;&gt;: String&lt;/span&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-5">
           <mxGeometry y="26" width="310" height="44" as="geometry" />
         </mxCell>
         <mxCell id="DYv4_KJz3e5PC-UhnC1p-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-5">
@@ -28,64 +28,58 @@
         <mxCell id="DYv4_KJz3e5PC-UhnC1p-8" value="&lt;font face=&quot;Lucida Console&quot;&gt;+&amp;nbsp;intercept(Object obj, Method method, Object[] args, MethodProxy proxy): Object&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-5">
           <mxGeometry y="78" width="310" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="DYv4_KJz3e5PC-UhnC1p-9" value="&lt;font face=&quot;Lucida Console&quot;&gt;GenericReferenceProxyFactory&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="80" y="500" width="410" height="110" as="geometry" />
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-9" value="&lt;font face=&quot;Lucida Console&quot;&gt;MapperProxyFactory&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="295" width="470" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="DYv4_KJz3e5PC-UhnC1p-10" value="&lt;font face=&quot;Lucida Console&quot;&gt;-&amp;nbsp;genericService: GenericService&lt;br&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;genericReferenceCache:&amp;nbsp;&lt;/span&gt;Map&amp;lt;String, IGenericReference&amp;gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-9">
-          <mxGeometry y="26" width="410" height="44" as="geometry" />
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-10" value="&lt;font face=&quot;Lucida Console&quot;&gt;-&amp;nbsp;uri: String&lt;br&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;genericReferenceCache:&amp;nbsp;&lt;/span&gt;Map&amp;lt;String, IGenericReference&amp;gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-9">
+          <mxGeometry y="26" width="470" height="44" as="geometry" />
         </mxCell>
         <mxCell id="DYv4_KJz3e5PC-UhnC1p-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-9">
-          <mxGeometry y="70" width="410" height="8" as="geometry" />
+          <mxGeometry y="70" width="470" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="DYv4_KJz3e5PC-UhnC1p-12" value="&lt;font face=&quot;Lucida Console&quot;&gt;+ newInstance(String method):&amp;nbsp;IGenericReference&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-9">
-          <mxGeometry y="78" width="410" height="32" as="geometry" />
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-12" value="&lt;font face=&quot;Lucida Console&quot;&gt;+ newInstance(GatewaySession gatewaySession):&amp;nbsp;IGenericReference&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-9">
+          <mxGeometry y="78" width="470" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="DYv4_KJz3e5PC-UhnC1p-13" value="&lt;font face=&quot;Lucida Console&quot;&gt;GenericReferenceRegistry&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="570" y="485" width="500" height="140" as="geometry" />
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-13" value="&lt;font face=&quot;Lucida Console&quot;&gt;MapperRegistry&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="590" y="210" width="500" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="DYv4_KJz3e5PC-UhnC1p-14" value="&lt;font face=&quot;Lucida Console&quot;&gt;- configuration: Configuration&lt;br&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;knownGenericReferences:&amp;nbsp;&lt;/span&gt;Map&amp;lt;String, GenericReferenceProxyFactory&amp;gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-13">
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-14" value="&lt;font face=&quot;Lucida Console&quot;&gt;- configuration: Configuration&lt;br&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;knownMappers:&amp;nbsp;&lt;/span&gt;Map&amp;lt;String, MapperProxyFactory&amp;gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-13">
           <mxGeometry y="26" width="500" height="44" as="geometry" />
         </mxCell>
         <mxCell id="DYv4_KJz3e5PC-UhnC1p-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-13">
           <mxGeometry y="70" width="500" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="DYv4_KJz3e5PC-UhnC1p-16" value="&lt;font face=&quot;Lucida Console&quot;&gt;+&amp;nbsp;addGenericReference(String application, String interfaceName, String methodName)&lt;br&gt;+ getGenericReference(String methodName): IGenericReference&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-13">
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-16" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+ addMapper(HttpStatement httpStatement)&lt;br style=&quot;&quot;&gt;+ getMapper(String uri, GatewaySession gatewaySession): IGenericReference&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-13">
           <mxGeometry y="78" width="500" height="62" as="geometry" />
         </mxCell>
         <mxCell id="DYv4_KJz3e5PC-UhnC1p-17" value="&lt;font face=&quot;Lucida Console&quot;&gt;Configuration&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="570" y="180" width="500" height="170" as="geometry" />
+          <mxGeometry x="590" y="480" width="500" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="DYv4_KJz3e5PC-UhnC1p-18" value="&lt;font face=&quot;Lucida Console&quot;&gt;- registry: GenericReferenceRegistry&lt;br&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;applicationConfigMap:&amp;nbsp;&lt;/span&gt;Map&amp;lt;String, ApplicationConfig&amp;gt;&lt;br&gt;- registryConfigMap: Map&amp;lt;String, RegistryConfig&amp;gt;&lt;br&gt;- referenceConfigMap: Map&amp;lt;String, ReferenceConfig&amp;lt;GenericService&amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-17">
-          <mxGeometry y="26" width="500" height="74" as="geometry" />
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-18" value="&lt;font face=&quot;Lucida Console&quot;&gt;- registry: GenericReferenceRegistry&lt;br&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;applicationConfigMap:&amp;nbsp;&lt;/span&gt;Map&amp;lt;String, ApplicationConfig&amp;gt;&lt;br&gt;- registryConfigMap: Map&amp;lt;String, RegistryConfig&amp;gt;&lt;br&gt;- referenceConfigMap: Map&amp;lt;String, ReferenceConfig&amp;lt;GenericService&amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;-&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;httpStatements:&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;Map&amp;lt;String, HttpStatement&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-17">
+          <mxGeometry y="26" width="500" height="84" as="geometry" />
         </mxCell>
         <mxCell id="DYv4_KJz3e5PC-UhnC1p-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-17">
-          <mxGeometry y="100" width="500" height="8" as="geometry" />
+          <mxGeometry y="110" width="500" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="DYv4_KJz3e5PC-UhnC1p-20" value="&lt;font face=&quot;Lucida Console&quot;&gt;+&amp;nbsp;addGenericReference(String application, String interfaceName, String methodName)&lt;br&gt;+ getGenericReference(String methodName): IGenericReference&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-17">
-          <mxGeometry y="108" width="500" height="62" as="geometry" />
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-20" value="&lt;font face=&quot;Lucida Console&quot;&gt;+ addMapper(HttpStatement httpStatement)&lt;br&gt;+ getMapper(String uri, GatewaySession gatewaySession): IGenericReference&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-17">
+          <mxGeometry y="118" width="500" height="62" as="geometry" />
         </mxCell>
         <mxCell id="DYv4_KJz3e5PC-UhnC1p-21" value="依赖" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="DYv4_KJz3e5PC-UhnC1p-5">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="200" y="700" as="sourcePoint" />
-            <mxPoint x="315" y="220" as="targetPoint" />
+            <mxPoint x="210" y="690" as="sourcePoint" />
+            <mxPoint x="325" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DYv4_KJz3e5PC-UhnC1p-22" value="创建" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-22" value="创建" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.827;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="DYv4_KJz3e5PC-UhnC1p-6">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="314.5" y="500" as="sourcePoint" />
-            <mxPoint x="314.5" y="420" as="targetPoint" />
+            <mxPoint x="80" y="352" as="sourcePoint" />
+            <mxPoint x="110" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DYv4_KJz3e5PC-UhnC1p-23" value="依赖" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-24" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.4;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="DYv4_KJz3e5PC-UhnC1p-17">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="570" y="562" as="sourcePoint" />
-            <mxPoint x="490" y="562" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="DYv4_KJz3e5PC-UhnC1p-24" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="780" y="350" as="sourcePoint" />
-            <mxPoint x="780" y="485" as="targetPoint" />
+            <mxPoint x="790" y="350" as="sourcePoint" />
+            <mxPoint x="790" y="475" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DYv4_KJz3e5PC-UhnC1p-25" value="聚合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DYv4_KJz3e5PC-UhnC1p-24">
@@ -93,15 +87,67 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DYv4_KJz3e5PC-UhnC1p-26" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-26" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.581;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DYv4_KJz3e5PC-UhnC1p-17">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="870" y="485" as="sourcePoint" />
-            <mxPoint x="870" y="350" as="targetPoint" />
+            <mxPoint x="880" y="475" as="sourcePoint" />
+            <mxPoint x="880" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DYv4_KJz3e5PC-UhnC1p-27" value="聚合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DYv4_KJz3e5PC-UhnC1p-26">
           <mxGeometry x="0.04" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-28" value="&lt;font face=&quot;Lucida Console&quot;&gt;GatewaySession&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="520" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-29" value="&lt;font face=&quot;Lucida Console&quot;&gt;&amp;nbsp;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-28">
+          <mxGeometry y="26" width="330" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-28">
+          <mxGeometry y="50" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-31" value="&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+ get(String uri, Object parameter): Object&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+ getMapper(String uri): IGenericReference&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+ getConfiguration(): Configuration&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-28">
+          <mxGeometry y="58" width="330" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-32" value="&lt;font face=&quot;Lucida Console&quot;&gt;DefaultGatewaySession&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="150" y="520" width="330" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-33" value="&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;- configuration: Configuration&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-32">
+          <mxGeometry y="26" width="330" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-32">
+          <mxGeometry y="60" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-35" value="&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+ get(String uri, Object parameter): Object&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+ getMapper(String uri): IGenericReference&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;+ getConfiguration(): Configuration&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="DYv4_KJz3e5PC-UhnC1p-32">
+          <mxGeometry y="68" width="330" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-36" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=1.014;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DYv4_KJz3e5PC-UhnC1p-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="582.38" y="585.004" as="sourcePoint" />
+            <mxPoint x="479.9999999999999" y="585.7780000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-37" value="聚合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DYv4_KJz3e5PC-UhnC1p-36">
+          <mxGeometry x="-0.0993" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-38" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="150" y="584" as="sourcePoint" />
+            <mxPoint x="40" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-39" value="实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DYv4_KJz3e5PC-UhnC1p-38">
+          <mxGeometry x="-0.0582" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DYv4_KJz3e5PC-UhnC1p-40" value="依赖" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.529;exitY=-0.022;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DYv4_KJz3e5PC-UhnC1p-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="324.5" y="490" as="sourcePoint" />
+            <mxPoint x="324.5" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
